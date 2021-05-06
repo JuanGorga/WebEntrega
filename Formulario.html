@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>CONSULTA</title>
+
+
+<body>
+    
+
+  <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+  Ingrese su nombre:
+  <input type="text" name="Nombre">
+  <br>
+  Ingrese su Apellido:
+    <!--input type para contraseña  -->
+  <input type = "text" name="apell" >
+  <br>
+  <br>
+  ingrese su telefono:
+  <input type="text" name="Nombre">
+  <br>
+  Ingrese su Email:
+  <input type="text" name="Nombre">
+  <br>
+  <!--cuadro de texto  -->
+  <textarea name="comentario" rows="10" cols="40">Escribe tu consulta....</textarea>
+  <br>
+ 
+
+ Sabe si su problema es de... (opcional) <br>
+ <!--lista desplegable  -->
+  <select name="Opciones">
+    <option value = "Hardware">Hardware</option>
+    <option value = "Software">Software</option>
+   
+    </select>
+    <br>
+
+
+   <!--opciones  -->  
+    Como prefiere que lo contactemos <br>
+    <input type="radio" id="Email" name="contacto" value="Email" >
+    <label for= "Email">Email</label>
+    <br>
+      <input type="radio" id="Telefono" name="contacto" value="telefono">
+      <label for= "telefono">Telefono</label>
+     <br>  
+   <
+  <!--botón  -->
+     <input type="submit" value="Enviar">
+  </form>
+
+
+</body>
+</html>
